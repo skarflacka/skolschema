@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Skola och Personnummer"
+        >
+        <Preference
+            android:title="Skola"
+            android:summary="Välj skola."
+            android:key="SchoolKey"
+            />
+
+        <EditTextPreference
+            android:title="Personnummer"
+            android:summary="ÅÅMMDD-XXXX"
+            android:key="PersonnummerKey"
+            android:digits="0123456789-"
+            android:inputType="number"
+            android:hint="ÅÅMMDD-XXXX"
+            />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="Vecko Schema inställningar"
+        >
+        <EditTextPreference
+            android:title="Height"
+            android:summary="Höjd på schemat. Ange endast siffror. (px)"
+            android:key="HeightKey"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            />
+
+        <EditTextPreference
+            android:title="Width"
+            android:summary="Bredd på schemat. Ange endast siffror. (px)"
+            android:key="WidthKey"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            />
+    </PreferenceCategory>
+<!--
+    <PreferenceCategory
+        android:title="Dag Schema inställningar"
+        >
+
+        <SwitchPreference
+            android:title="Visa endast en dag"
+            android:defaultValue="false"
+            android:key="DagKey"
+            />
+
+        <SwitchPreference
+            android:title="Auto-justera"
+            android:defaultValue="true"
+            android:dependency="DagKey"
+            android:key="AutoKey"
+            android:disableDependentsState="true"
+            android:summary="Fyller skärmen med schema för en dag."
+            />
+
+        <EditTextPreference
+            android:title="Height"
+            android:summary="Höjd på schemat. Ange endast siffror. (px)"
+            android:key="HeightDagKey"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            android:dependency="AutoKey"
+            />
+
+        <EditTextPreference
+            android:title="Width"
+            android:summary="Bredd på schemat. Ange endast siffror. (px)"
+            android:key="WidthDagKey"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:maxLength="4"
+            android:dependency="AutoKey"
+            />
+
+    </PreferenceCategory>
+-->
+    <PreferenceCategory
+        android:title="CACHE"
+        >
+
+        <Preference
+            android:title="Clear Cache"
+            android:summary="Rensa image cache."
+            android:key="ClearCacheKey"
+            />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

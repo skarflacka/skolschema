@@ -1,0 +1,947 @@
+<resources>
+    <string name="app_name">Skolschema</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_settings">Settings</string>
+    <string name="url2">http://www.novasoftware.se/ImgGen/schedulegenerator.aspx?format=png&amp;schoolid=%1$s/sv-se&amp;id=%2$s&amp;period=&amp;week=%5$s&amp;width=%3$s&amp;height=%4$s&amp;day=%6$s</string>
+    <string name="url">http://www.novasoftware.se/ImgGen/schedulegenerator.aspx?format=png&amp;schoolid=%1$s/sv-se&amp;id=%2$s&amp;period=&amp;week=%5$s&amp;width=%3$s&amp;height=%4$s</string>
+<string name="search_hint">Search...</string>
+<string name="title_schoolsearch">SEARCH PLS</string>
+    <string name="refresh">Refresh</string>
+    <string name="pref_previously_started">FirstTime</string>
+    <string name="title_help">Help desu ne.</string>
+    <string name="shimmer_text">Välkommen till\n Skolschema!</string>
+    <string name="shimmer_text_2">Börja med att sätta upp\n ditt schema i Settings.</string>
+
+    <string-array name="week_array">
+        <item>Vecka 1</item>
+        <item>Vecka 2</item>
+        <item>Vecka 3</item>
+        <item>Vecka 4</item>
+        <item>Vecka 5</item>
+        <item>Vecka 6</item>
+        <item>Vecka 7</item>
+        <item>Vecka 8</item>
+        <item>Vecka 9</item>
+        <item>Vecka 10</item>
+        <item>Vecka 11</item>
+        <item>Vecka 12</item>
+        <item>Vecka 13</item>
+        <item>Vecka 14</item>
+        <item>Vecka 15</item>
+        <item>Vecka 16</item>
+        <item>Vecka 17</item>
+        <item>Vecka 18</item>
+        <item>Vecka 19</item>
+        <item>Vecka 20</item>
+        <item>Vecka 21</item>
+        <item>Vecka 22</item>
+        <item>Vecka 23</item>
+        <item>Vecka 24</item>
+        <item>Vecka 25</item>
+        <item>Vecka 26</item>
+        <item>Vecka 27</item>
+        <item>Vecka 28</item>
+        <item>Vecka 29</item>
+        <item>Vecka 30</item>
+        <item>Vecka 31</item>
+        <item>Vecka 32</item>
+        <item>Vecka 33</item>
+        <item>Vecka 34</item>
+        <item>Vecka 35</item>
+        <item>Vecka 36</item>
+        <item>Vecka 37</item>
+        <item>Vecka 38</item>
+        <item>Vecka 39</item>
+        <item>Vecka 40</item>
+        <item>Vecka 41</item>
+        <item>Vecka 42</item>
+        <item>Vecka 43</item>
+        <item>Vecka 44</item>
+        <item>Vecka 45</item>
+        <item>Vecka 46</item>
+        <item>Vecka 47</item>
+        <item>Vecka 48</item>
+        <item>Vecka 49</item>
+        <item>Vecka 50</item>
+        <item>Vecka 51</item>
+        <item>Vecka 52</item>
+    </string-array>
+
+    <string-array name="school">
+        <item>Adolf Fredriks Musikklasser</item>
+        <item>Anders Ljungstedts Gymnasium</item>
+        <item>Annerstaskolan</item>
+        <item>Aranäsgymnasiet</item>
+        <item>Berzeliusskolan</item>
+        <item>Birgittaskolan</item>
+        <item>Björkö Fria Gymnasium</item>
+        <item>Cybergymnasiet Odenplan</item>
+        <item>Dragonskolan</item>
+        <item>Engelbrektsskolan Örebro</item>
+        <item>Ester Mosessons Gymnasium</item>
+        <item>Folkungaskolan</item>
+        <item>Frans Schartau</item>
+        <item>Fridhemsgymnasiet</item>
+        <item>Globala Gymansiet</item>
+        <item>Hulebäcksgymnasiet</item>
+        <item>IT-Gymnasiet Göteborg</item>
+        <item>IT-Gymnasiet Helsingborg</item>
+        <item>IT-Gymnasiet Kristianstad</item>
+        <item>IT-Gymnasiet Sundbyberg</item>
+        <item>IT-Gymnasiet Uppsala</item>
+        <item>IT-Gymnasiet Västerås</item>
+        <item>IT-Gymnasiet Åkersberga</item>
+        <item>IT-Gymnasiet Örebro</item>
+        <item>Karlbergsskolan</item>
+        <item>Karolinska Skolan</item>
+        <item>Kastanjeskolan</item>
+        <item>Katedralskolan</item>
+        <item>Katedralskolan Skara</item>
+        <item>Krokslättgymnasiet</item>
+        <item>Kulturama Gymnasium</item>
+        <item>Kungsholmens Gymnasium</item>
+        <item>Kvarnbergsskolan</item>
+        <item>Kvarnbyskolan Mölndal</item>
+        <item>Kärrtorps Gymnasium</item>
+        <item>Liljevalchs Internationella Läroverk</item>
+        <item>Midgårdsskolan</item>
+        <item>Norra Reals Gymnasium</item>
+        <item>Oscarsgymnasiet</item>
+        <item>Realgymnasiet Eskilstuna</item>
+        <item>Realgymnasiet Gävle</item>
+        <item>Realgymnasiet Linköping</item>
+        <item>Realgymnasiet Malmö</item>
+        <item>Realgymnasiet Norrköping</item>
+        <item>Realgymnasiet Nyköping</item>
+        <item>Realgymnasiet Stockholm</item>
+        <item>Realgymnasiet Västerås</item>
+        <item>Rinkebyskolan</item>
+        <item>Rudbecksskolan Örebro</item>
+        <item>Rytmus Gymnasium Göteborg</item>
+        <item>Rytmus Gymnasium Malmö</item>
+        <item>Rytmus Gymnasium Nörrköping</item>
+        <item>Rytmus Gymnasium Stockholm</item>
+        <item>Rytmus Gymnasium Örebro</item>
+        <item>Sjödalsgymnasiet</item>
+        <item>S:t Eriks Gymnasium</item>
+        <item>Södra Latins Gymnasium</item>
+        <item>Tibble Fristående Gymnasium</item>
+        <item>Thorildsplans Gymnasium</item>
+        <item>Tumba Gymnasium</item>
+        <item>Vasaskolan</item>
+        <item>Vretagymnasiet</item>
+        <item>Åva Gymnasium</item>
+        <item>Öckerö Gymnasieskola</item>
+        <item>Östra Reals Gymnasium</item>
+        <item>Öknaskolan</item>
+        <item>Lilla Akademien</item>
+        <item>Junedalsskolan</item>
+        <item>Kungsmadskolan</item>
+        <item>Bromangymnasiet</item>
+        <item>Staffangymnasiet</item>
+        <item>Vasaskolan Gävle</item>
+        <item>Kaplanskolan</item>
+        <item>Fugik</item>
+        <item>Smedingeskolan</item>
+        <item>Dammfriskolan</item>
+        <item>Huddinge Gymnasium</item>
+        <item>Ållebergsgymnasiet</item>
+        <item>Nösnäsgymnasiet</item>
+        <item>Klara Södra Gymnasium</item>
+        <item>Västerviks Gymnasium</item>
+        <item>Samgymnasiet</item>
+        <item>Gröndalsskolan</item>
+        <item>Västerhöjdsgymnasiet</item>
+        <item>Nynäshamns Gymnasium</item>
+        <item>Polhemskolan</item>
+        <item>Gudlav Bilderskolan</item>
+        <item>Sandagymnasiet</item>
+        <item>Ingelstad Naturbruksgymnasium</item>
+        <item>Elof Lindälvs Gymnasium</item>
+        <item>Östergårdsskolan</item>
+        <item>Thoren Business School TBS Örebro</item>
+        <item>Igelstavikens Gymnasium</item>
+        <item>Universitetsholmens Gymnasium</item>
+        <item>Myrsjöskolan</item>
+        <item>Brinellgymnasiet</item>
+        <item>Ebersteinska Gymnasiet</item>
+        <item>Barkestorpsskolan</item>
+        <item>Lunds Dans- och Musikalgymnasium</item>
+        <item>Balderskolan</item>
+        <item>Rudbeckianska Gymnasiet</item>
+        <item>Bäckängsgymnasiet</item>
+        <item>Eklidens Skola</item>
+        <item>Ross Tensta Gymnasium</item>
+        <item>Lindengymnasiet</item>
+        <item>Karbyskolan</item>
+        <item>Helenaskolan</item>
+        <item>Kristinegymnasiet</item>
+        <item>Kanalskolan</item>
+        <item>Klara Gymnasium</item>
+        <item>Fågelviksgymnasiet</item>
+        <item>Sannarpgymnasiet</item>
+        <item>Ale Gymnasium</item>
+        <item>Kirsebergsskolan</item>
+        <item>Nosabyskolan</item>
+        <item>Teknikum</item>
+        <item>Taserudsgymnasiet</item>
+        <item>Blackebergs Gymnasium</item>
+        <item>Österänggymnasiet</item>
+        <item>Lerbäckskolan</item>
+        <item>Hagagymnasiet</item>
+        <item>Borgarskolan</item>
+        <item>Kungshögaskolan</item>
+        <item>Nyströmska Skolan</item>
+        <item>Sjuntorpskolan</item>
+        <item>Carlforsska Gymnasiet</item>
+        <item>Bernadottegymnasiet Malmö</item>
+        <item>Stenungskolan</item>
+        <item>Nacka Gymnasium</item>
+        <item>Fridegårdsgymnasiet</item>
+        <item>Cybergymnasiet Malmö</item>
+        <item>Nordvikskolan</item>
+        <item>Bollerups Naturbruksgymnasium</item>
+        <item>Sigtunaskolan Humanistiska Läroverket</item>
+        <item>Tullängsskolan</item>
+        <item>Platengymnasiet</item>
+        <item>Grennaskolan</item>
+        <item>Tullinge Gymnasium</item>
+        <item>Östra Gymnasiet</item>
+        <item>Lerums Gymnasium</item>
+        <item>Norrtullskolan</item>
+        <item>Bergska Skolan</item>
+        <item>Leksands Gymnasium</item>
+        <item>Bessemerskolan</item>
+        <item>Möckelngymnasiet</item>
+        <item>Österåkers Gymnasium</item>
+        <item>Sturegymnasiet</item>
+        <item>Sågbäcksgymnasiet</item>
+        <item>Almåsgymnasiet</item>
+        <item>Marina Läroverket</item>
+        <item>Kullagymnasiet</item>
+        <item>Teknikcollege Åtvidaberg Bildningscentrum Facetten</item>
+        <item>Schillerska Gymnasiet</item>
+        <item>Ekebyskolan</item>
+        <item>Kunskapsgymnasiet Malmö</item>
+        <item>Klara Norra Gymnasium</item>
+        <item>Klara Gymnasium Malmö</item>
+        <item>Malmö Borgarskola</item>
+        <item>Sundstagymnasiet</item>
+        <item>Björkhagens Skola</item>
+        <item>Mimers Hus Gymnasium</item>
+        <item>Skäggetorpsskolan</item>
+        <item>Stjerneskolan</item>
+        <item>Bräckegymnasiet Bygg och Anläggning</item>
+        <item>Bräckegymnasiet Transport</item>
+        <item>Tunaskolan Lund</item>
+        <item>Kunskapsgymsiet Norrköping</item>
+        <item>S:t Petri Skola Malmö</item>
+        <item>Bergundaskolan</item>
+        <item>Torekällgymnasiet</item>
+        <item>Solbergagymnasiet</item>
+        <item>Lagmansskolan</item>
+        <item>Stockholms Hotell- &amp; Restaurangskola</item>
+        <item>Bergagymnasiet</item>
+        <item>Rinmangymnasiet</item>
+        <item>Curt Nicolin Gymnasiet</item>
+        <item>Hjortmosseskolan</item>
+        <item>Haganäsgymnasiet</item>
+        <item>Östratornskolan</item>
+        <item>Ängelholms Gymnasieskola</item>
+        <item>Pauli gymnasium</item>
+        <item>Erik Dahlbergsgymnasiet</item>
+        <item>Gymnasieskolan Spyken</item>
+        <item>Soltorgsgymnasiet</item>
+        <item>Christian 4:s Gymnasium</item>
+        <item>Bredängsskolan</item>
+        <item>Hammarögymnasiet</item>
+        <item>Himmelstalundsgymnasiet</item>
+        <item>Helenelundsskolan</item>
+        <item>Ärentunaskolan</item>
+        <item>Göteborgsregionens Tekniska Gymnasium</item>
+        <item>Bräckegymnasiet</item>
+        <item>Fyrisskolan Uppsala</item>
+        <item>Nils Ericsonsgymnasiet</item>
+        <item>Yrkeshögskolan Göteborg Molinsgatan</item>
+        <item>Väsby Skola</item>
+        <item>IT-Gymnasiet Södertörn</item>
+        <item>Nya Påvelundsskolan</item>
+        <item>Kavelbrogymnasiet</item>
+        <item>Magnus Åbergsgymnasiet</item>
+        <item>Nolaskolan</item>
+        <item>Vallhallaskolan</item>
+        <item>Väsby Nya Gymnasium</item>
+        <item>Katedralskolan Uppsala</item>
+        <item>Folkunga Gymnasieskolan</item>
+        <item>Lundellska skolan</item>
+        <item>Duveholm/KTC</item>
+        <item>Brunnsboskolan</item>
+        <item>Alléskolan</item>
+        <item>YBC</item>
+        <item>Söderkullaskolan</item>
+        <item>Dackeskolan</item>
+        <item>Vallentuna Gymnasium</item>
+        <item>Sundsta-Älvkullegymnasiet</item>
+        <item>Söderkulla</item>
+        <item>Kunskapskälla</item>
+        <item>Floby Skola</item>
+        <item>Porthälla Gymnasium</item>
+        <item>Naturbruksgymnasiet Uddetorp</item>
+        <item>Hvitfeldtska Gymnasiet</item>
+        <item>Broskolan</item>
+        <item>Finnvedens Gymnasium</item>
+        <item>Sunnerbogymnasiet</item>
+        <item>Lindsdalsskolan</item>
+        <item>Martin Koch-Gymnasiet</item>
+        <item>Utsikten Dals-Eds Gymnasium</item>
+        <item>Olympiaskola (Skolstaden)</item>
+        <item>Tycho Braheskolan (Skolstaden)</item>
+        <item>Vipeholmsskolan</item>
+        <item>Nicolaiskolan (Skolstaden)</item>
+        <item>Tallåsskolan</item>
+        <item>Göranssonska Skolan</item>
+        <item>Påhlmans Gymnasium</item>
+        <item>Textila Gymnasiet</item>
+        <item>Törnströmska Gymnasiet</item>
+        <item>Österportsgymnasiet</item>
+        <item>Grans Naturbruksgymnasium</item>
+        <item>Celsiusskolan</item>
+        <item>Kunskapsgymnasiet Göteborg</item>
+        <item>Jacobsskolan Hässleholm</item>
+        <item>Hässleholms Tekniska Skola</item>
+        <item>Strömkullegymnasiet</item>
+        <item>Kungsängsgymnasiet</item>
+        <item>Sörböleskolan</item>
+        <item>Anderstorpsskolan</item>
+        <item>Söderskolan FBG</item>
+        <item>Bruksgymnasiet</item>
+        <item>Teleborg Centrum</item>
+        <item>Strömbackaskolan</item>
+        <item>Haraldsbogymnasiet</item>
+        <item>Tingvallagymnasiet</item>
+        <item>Skrantaskolan</item>
+        <item>Almåsskolan</item>
+        <item>SKF Tekniska Gymnasium</item>
+        <item>Fässbergsgymnasiet</item>
+        <item>Sydskånska Gymnasiet</item>
+        <item>Wendela Hebbegymnasiet</item>
+        <item>Bolandgymnasiet Uppsala</item>
+        <item>Hedbergska (Sundsvalls Gymnasium)</item>
+        <item>Västermalm (Sundsvalls Gymnasium)</item>
+        <item>Sundsbroskolan</item>
+        <item>Farsta Gymnasium</item>
+        <item>Naprapathögskolan</item>
+        <item>Yrkeshögskolan Göteborg Lindholmen</item>
+        <item>Järnåkraskolan</item>
+        <item>Yrkeshögskolan Göteborg Styrmansgatan</item>
+        <item>Yrkeshögskolan Göteborg Skånegatan</item>
+        <item>Ålidhemsskolan</item>
+        <item>Yrkeshögskolan Syd Hässleholm</item>
+        <item>Upplands-Bro Gymnasiet</item>
+        <item>Centralskolan Arvika</item>
+        <item>Skälltorpsskolan</item>
+        <item>Ersängsskolan</item>
+        <item>Råsunda Skola</item>
+        <item>Valsätraskolan</item>
+        <item>Rosendalsgymnasiet</item>
+        <item>Bergviksskolan Söderhamn</item>
+        <item>Westerlundska Gymnasiet</item>
+        <item>Brogårdsgymnasiet</item>
+        <item>Älvkullegymnasiet</item>
+        <item>Fagskolen i Oslo</item>
+        <item>Grubbeskolan</item>
+        <item>Tunabergsskolan</item>
+        <item>Svaneskolan</item>
+        <item>Parkskolan</item>
+        <item>Wasaskolan</item>
+        <item>Falkenbergs Gymnasium</item>
+        <item>Rodengymnasiet</item>
+        <item>Erikslundgymnasiet</item>
+        <item>Mälarhöjdens Skola</item>
+        <item>Stavsborgsskolan</item>
+        <item>Birger Sjöberggymnasiet</item>
+        <item>Attarpskolan</item>
+        <item>Ehrensvärdska Gymnasiet</item>
+        <item>Spånga Grundskola</item>
+        <item>Erikslundsgymnasiet</item>
+        <item>KCM - Markaryds Gymnasieskola</item>
+        <item>Knut Hahn</item>
+        <item>Hjällboskolan</item>
+        <item>Brandbergsskolan</item>
+        <item>Katedralskolan Växjö</item>
+        <item>Agnedsfrids Gymnasium</item>
+        <item>Sjöängsskolan</item>
+        <item>Södra Vätterbygdens Folkhögskola</item>
+        <item>Nannaskolan</item>
+        <item>S:t Eskils Gymnasium</item>
+        <item>Kunskapsgymnasiet Uppsala</item>
+        <item>Kungsbergsskolan</item>
+        <item>S:t Mikaelsskolan Mora</item>
+        <item>Oxbacksskolan</item>
+        <item>Degebergaskolan</item>
+        <item>Holmesskolan</item>
+        <item>Nya Lundenskolan</item>
+        <item>Thomasgymnasiet</item>
+        <item>Kärna skola</item>
+        <item>Tångaskolan - Falkenberg Halland</item>
+        <item>Åkrahällskolan</item>
+        <item>Hjalmar Lundbohmsskolan</item>
+        <item>Vaksalaskolan</item>
+        <item>Per Brahegymnasiet</item>
+        <item>Burgårdens Utbildningscentrum</item>
+        <item>Tärnan F-6</item>
+        <item>NT-Gymnasiet Järfälla</item>
+        <item>Viskastrandsgymnasiet</item>
+        <item>Lillerudsgymnasiet</item>
+        <item>Midsommarkransen</item>
+        <item>Hässlögymnasiet</item>
+        <item>S:t Botvids Gymnasium</item>
+        <item>Malgomajskolan</item>
+        <item>Stiernhööksgymnasiet</item>
+        <item>Tranemo Gymnasieskola</item>
+        <item>Hagaskolan</item>
+        <item>Rekarnegymnasiet</item>
+        <item>Yrkeshögskolan Helsingborg</item>
+        <item>Solna Gymnasium</item>
+        <item>Kapareskolan</item>
+        <item>Lyckeskolan</item>
+        <item>Kyrkskolan Ludvika</item>
+        <item>Ängskolan Skene</item>
+        <item>Täljegymnasiet</item>
+        <item>Katrinelundsgymnasiet</item>
+        <item>Kvinnerstaskolan</item>
+        <item>Lugnetgymnasiet</item>
+        <item>Lars-Erik Larsson-gymnasiet</item>
+        <item>Tungelsta skola</item>
+        <item>Nobelgymnasiet</item>
+        <item>Af Chapmangymnasiet</item>
+        <item>IES Hässelby strand</item>
+        <item>Kunskapsgymnasiet</item>
+        <item>Parkskolan Mönsterås</item>
+        <item>Skogshöjdens skola</item>
+        <item>Spånga Gymnasium</item>
+        <item>Kattegattgymnasiet</item>
+        <item>Folkuniversitetet Korta Vägen - Karlstad</item>
+        <item>Katedralskolan Linköping</item>
+        <item>Bolidenskolan</item>
+        <item>LM Engströms gymnasium</item>
+        <item>Sven Eriksongymnasiet</item>
+        <item>Hahrska Gymnasiet</item>
+        <item>Ljungarumsskolan</item>
+        <item>Djurgårdsskolan Eskilstuna</item>
+        <item>Handelsakademin</item>
+        <item>Thoren Business School TBS Karlstad</item>
+        <item>Internationella Skolan IS Atlas</item>
+        <item>Edsbergsskolan</item>
+        <item>SG/Broby BrobyGrafiska Sunne</item>
+        <item>Fenix Kunskapscentrum</item>
+        <item>Herrgårdsgymnasiet</item>
+        <item>Astrid Lindgren Skolan</item>
+        <item>Hålabäcksskolan</item>
+        <item>Holavedsgymnasiet</item>
+        <item>Värnhemsskolan</item>
+        <item>Risbergska Skolan</item>
+        <item>Älvstrandsgymnasiet</item>
+        <item>Gärdeskolan</item>
+        <item>Brunnsängskolan</item>
+        <item>Hushagsgymnasiet</item>
+        <item>Kalmarsundsskolan</item>
+        <item>Bäckadalsgymnasiet</item>
+        <item>Studium</item>
+        <item>Bräntbergsskolan</item>
+        <item>Gamlebygymnasiet</item>
+        <item>Blombackaskolan</item>
+        <item>Sundsgymnasiet</item>
+        <item>Östra Funkaboskolan</item>
+        <item>Österledsskolan</item>
+        <item>Stora Högaskolan</item>
+        <item>Johannesskolan</item>
+        <item>Stålforsskolan</item>
+        <item>Thoren Business School TBS Malmö</item>
+        <item>Ribbaskolan</item>
+        <item>Fria Läroverken</item>
+        <item>NTI Gymnasiet Stockholm</item>
+        <item>Hälsinggårdsskolan</item>
+        <item>Munkebäcksgymnasiet</item>
+        <item>Malmaskolan</item>
+        <item>Tyresö Gymnasium</item>
+        <item>Munkegärdeskolan</item>
+        <item>GUC - Grafiskt Utbildningscenter Uppsala</item>
+        <item>Ytterbyskolan</item>
+        <item>Vadsbogymnasiet</item>
+        <item>Nacka Praktiska Gymnasium</item>
+        <item>Ektorpsskolan</item>
+        <item>Lyrfågelskolan</item>
+        <item>Filbornaskolan</item>
+        <item>Nya Malmö Latin</item>
+        <item>Hörnefors Centralskola</item>
+        <item>Naturbruksgymnasiet Strömma</item>
+        <item>Vuxenskolan i Eslöv</item>
+        <item>Pershagenskolan</item>
+        <item>Sophiahemmet Högskola</item>
+        <item>Mörmoskolan</item>
+        <item>Lundenskolan - Skövde</item>
+        <item>Nya Lundenskolan - Göteborg</item>
+        <item>Lindeborgsskolan</item>
+        <item>Ljungsbro</item>
+        <item>Donnergymnasiet Göteborg</item>
+        <item>Önnestadsgymnasiet</item>
+        <item>Söderportgymnasiet</item>
+        <item>Yrkeshögskolan Kungsbacka</item>
+        <item>Önnerödskolan</item>
+        <item>Hjalmar Strömerskolan</item>
+        <item>Torpskolan</item>
+        <item>Sylteskolan</item>
+        <item>Bregårdsskolan 4-9</item>
+        <item>Rönnenskolan</item>
+        <item>Ekhammarskolan</item>
+        <item>Eneskolan</item>
+        <item>Björkebyskolan</item>
+        <item>Stockholms Internationella Restaurangskola</item>
+        <item>Nya Elementars skola</item>
+        <item>Tranängskolan</item>
+        <item>Vuxenskolan Göteborg</item>
+        <item>Möckelngymnasiet Degerfors</item>
+        <item>Bleketskolan</item>
+    </string-array>
+
+    <string-array name="schoolId">
+        <item>29320</item>
+        <item>81760</item>
+        <item>81090</item>
+        <item>69040</item>
+        <item>89920</item>
+        <item>80120</item>
+        <item>87510</item>
+        <item>85760</item>
+        <item>56740</item>
+        <item>86460</item>
+        <item>80770</item>
+        <item>88450</item>
+        <item>69590</item>
+        <item>59700</item>
+        <item>29120</item>
+        <item>82710</item>
+        <item>80220</item>
+        <item>91250</item>
+        <item>94100</item>
+        <item>83650</item>
+        <item>80010</item>
+        <item>81440</item>
+        <item>88690</item>
+        <item>81620</item>
+        <item>90030</item>
+        <item>83510</item>
+        <item>87300</item>
+        <item>88470</item>
+        <item>86960</item>
+        <item>85390</item>
+        <item>25400</item>
+        <item>29200</item>
+        <item>53230</item>
+        <item>53420</item>
+        <item>54070</item>
+        <item>97410</item>
+        <item>56760</item>
+        <item>81530</item>
+        <item>80100</item>
+        <item>89160</item>
+        <item>89170</item>
+        <item>82570</item>
+        <item>91450</item>
+        <item>82560</item>
+        <item>91810</item>
+        <item>91460</item>
+        <item>93660</item>
+        <item>80620</item>
+        <item>83250</item>
+        <item>91360</item>
+        <item>89390</item>
+        <item>89400</item>
+        <item>61030</item>
+        <item>97770</item>
+        <item>82610</item>
+        <item>81560</item>
+        <item>81660</item>
+        <item>82790</item>
+        <item>80710</item>
+        <item>80860</item>
+        <item>92360</item>
+        <item>25500</item>
+        <item>82400</item>
+        <item>87330</item>
+        <item>59150</item>
+        <item>82500</item>
+        <item>88460</item>
+        <item>81930</item>
+        <item>55890</item>
+        <item>27810</item>
+        <item>82970</item>
+        <item>59560</item>
+        <item>82830</item>
+        <item>82910</item>
+        <item>88040</item>
+        <item>29040</item>
+        <item>82680</item>
+        <item>20700</item>
+        <item>20100</item>
+        <item>85300</item>
+        <item>83440</item>
+        <item>29140</item>
+        <item>89110</item>
+        <item>53520</item>
+        <item>55990</item>
+        <item>18600</item>
+        <item>85070</item>
+        <item>83710</item>
+        <item>89050</item>
+        <item>29540</item>
+        <item>91530</item>
+        <item>94540</item>
+        <item>80020</item>
+        <item>83200</item>
+        <item>80940</item>
+        <item>85500</item>
+        <item>52180</item>
+        <item>91730</item>
+        <item>83560</item>
+        <item>82820</item>
+        <item>57260</item>
+        <item>64310</item>
+        <item>19700</item>
+        <item>28020</item>
+        <item>83340</item>
+        <item>81840</item>
+        <item>58540</item>
+        <item>84620</item>
+        <item>91160</item>
+        <item>91690</item>
+        <item>82140</item>
+        <item>26100</item>
+        <item>68250</item>
+        <item>84820</item>
+        <item>84050</item>
+        <item>20200</item>
+        <item>81380</item>
+        <item>52550</item>
+        <item>29660</item>
+        <item>27760</item>
+        <item>22200</item>
+        <item>62150</item>
+        <item>52080</item>
+        <item>81490</item>
+        <item>82540</item>
+        <item>80190</item>
+        <item>83410</item>
+        <item>83420</item>
+        <item>58700</item>
+        <item>82590</item>
+        <item>89270</item>
+        <item>27830</item>
+        <item>91060</item>
+        <item>54720</item>
+        <item>58430</item>
+        <item>83020</item>
+        <item>81920</item>
+        <item>81630</item>
+        <item>82630</item>
+        <item>19300</item>
+        <item>82990</item>
+        <item>80560</item>
+        <item>83870</item>
+        <item>29380</item>
+        <item>61811</item>
+        <item>29190</item>
+        <item>27890</item>
+        <item>82670</item>
+        <item>63300</item>
+        <item>90645</item>
+        <item>83800</item>
+        <item>55630</item>
+        <item>85420</item>
+        <item>64240</item>
+        <item>29090</item>
+        <item>89960</item>
+        <item>87050</item>
+        <item>82450</item>
+        <item>91150</item>
+        <item>81000</item>
+        <item>82200</item>
+        <item>95120</item>
+        <item>86980</item>
+        <item>55650</item>
+        <item>55651</item>
+        <item>27740</item>
+        <item>29070</item>
+        <item>81890</item>
+        <item>94270</item>
+        <item>97420</item>
+        <item>86390</item>
+        <item>91390</item>
+        <item>87170</item>
+        <item>81060</item>
+        <item>29470</item>
+        <item>90240</item>
+        <item>83040</item>
+        <item>90505</item>
+        <item>27720</item>
+        <item>89260</item>
+        <item>83410</item>
+        <item>84370</item>
+        <item>26900</item>
+        <item>58640</item>
+        <item>80180</item>
+        <item>91350</item>
+        <item>26200</item>
+        <item>24700</item>
+        <item>53550</item>
+        <item>81900</item>
+        <item>27500</item>
+        <item>55650</item>
+        <item>29170</item>
+        <item>82520</item>
+        <item>27100</item>
+        <item>29620</item>
+        <item>80080</item>
+        <item>55530</item>
+        <item>20400</item>
+        <item>82510</item>
+        <item>55420</item>
+        <item>99220</item>
+        <item>82100</item>
+        <item>68600</item>
+        <item>88450</item>
+        <item>27870</item>
+        <item>83670</item>
+        <item>80700</item>
+        <item>56540</item>
+        <item>88360</item>
+        <item>87010</item>
+        <item>83540</item>
+        <item>19100</item>
+        <item>18200</item>
+        <item>28020</item>
+        <item>84410</item>
+        <item>87200</item>
+        <item>87190</item>
+        <item>90340</item>
+        <item>24300</item>
+        <item>81860</item>
+        <item>57240</item>
+        <item>29630</item>
+        <item>84710</item>
+        <item>90920</item>
+        <item>86370</item>
+        <item>91550</item>
+        <item>91550</item>
+        <item>27750</item>
+        <item>91550</item>
+        <item>92740</item>
+        <item>68830</item>
+        <item>83110</item>
+        <item>83110</item>
+        <item>89280</item>
+        <item>22000</item>
+        <item>90600</item>
+        <item>58380</item>
+        <item>29080</item>
+        <item>82430</item>
+        <item>92040</item>
+        <item>82810</item>
+        <item>83390</item>
+        <item>82330</item>
+        <item>81520</item>
+        <item>96230</item>
+        <item>87750</item>
+        <item>91140</item>
+        <item>85450</item>
+        <item>20300</item>
+        <item>25000</item>
+        <item>61813</item>
+        <item>29600</item>
+        <item>59760</item>
+        <item>84430</item>
+        <item>22000</item>
+        <item>22800</item>
+        <item>80000</item>
+        <item>61830</item>
+        <item>61831</item>
+        <item>82220</item>
+        <item>29500</item>
+        <item>89970</item>
+        <item>56330</item>
+        <item>27800</item>
+        <item>86400</item>
+        <item>93050</item>
+        <item>80880</item>
+        <item>93290</item>
+        <item>55450</item>
+        <item>82130</item>
+        <item>66700</item>
+        <item>85940</item>
+        <item>80290</item>
+        <item>85480</item>
+        <item>81320</item>
+        <item>82980</item>
+        <item>53880</item>
+        <item>80740</item>
+        <item>18200</item>
+        <item>72780</item>
+        <item>29260 umeå</item>
+        <item>80380</item>
+        <item>27710</item>
+        <item>87030</item>
+        <item>29270</item>
+        <item>53140</item>
+        <item>81420</item>
+        <item>29050</item>
+        <item>91310</item>
+        <item>81960</item>
+        <item>81550</item>
+        <item>83310</item>
+        <item>89280</item>
+        <item>29390</item>
+        <item>56400</item>
+        <item>82190</item>
+        <item>28070</item>
+        <item>88160</item>
+        <item>99220</item>
+        <item>54750</item>
+        <item>83830</item>
+        <item>80670</item>
+        <item>87780</item>
+        <item>94140</item>
+        <item>86970</item>
+        <item>90320</item>
+        <item>92700</item>
+        <item>21900</item>
+        <item>86630</item>
+        <item>80140</item>
+        <item>93185</item>
+        <item>70410</item>
+        <item>29160</item>
+        <item>95080</item>
+        <item>70810</item>
+        <item>58480</item>
+        <item>87730</item>
+        <item>83130</item>
+        <item>80900</item>
+        <item>93030</item>
+        <item>90310</item>
+        <item>80060</item>
+        <item>63290</item>
+        <item>57310</item>
+        <item>69590</item>
+        <item>85910</item>
+        <item>80910</item>
+        <item>97670</item>
+        <item>56000</item>
+        <item>88400</item>
+        <item>82040</item>
+        <item>82740</item>
+        <item>96960</item>
+        <item>81390</item>
+        <item>87980</item>
+        <item>99360</item>
+        <item>90875</item>
+        <item>99460</item>
+        <item>97410</item>
+        <item>55680</item>
+        <item>56280</item>
+        <item>82390</item>
+        <item>87080</item>
+        <item>87210</item>
+        <item>25700</item>
+        <item>89280</item>
+        <item>97480</item>
+        <item>91190</item>
+        <item>61220</item>
+        <item>82550</item>
+        <item>29390</item>
+        <item>80680</item>
+        <item>90465</item>
+        <item>88470</item>
+        <item>83890</item>
+        <item>85850</item>
+        <item>91720</item>
+        <item>97380</item>
+        <item>87570</item>
+        <item>29030</item>
+        <item>84650</item>
+        <item>97150</item>
+        <item>95070</item>
+        <item>80990</item>
+        <item>63930</item>
+        <item>24100</item>
+        <item>53560</item>
+        <item>91435</item>
+        <item>87940</item>
+        <item>88640</item>
+        <item>83850</item>
+        <item>82180</item>
+        <item>80450</item>
+        <item>91180</item>
+        <item>86060</item>
+        <item>56400</item>
+        <item>84670</item>
+        <item>22700</item>
+        <item>93050</item>
+        <item>80110</item>
+        <item>97530</item>
+        <item>83700</item>
+        <item>51580</item>
+        <item>84700</item>
+        <item>61814</item>
+        <item>88180</item>
+        <item>82600</item>
+        <item>89070</item>
+        <item>94550</item>
+        <item>87550</item>
+        <item>83360</item>
+        <item>L000070</item>
+        <item>80970</item>
+        <item>84720</item>
+        <item>29570</item>
+        <item>27820</item>
+        <item>86440</item>
+        <item>83210</item>
+        <item>86140</item>
+        <item>24400</item>
+        <item>L000121</item>
+        <item>93675</item>
+        <item>83050</item>
+        <item>81880</item>
+        <item>82660</item>
+        <item>85950</item>
+        <item>80590</item>
+        <item>93130</item>
+        <item>86190</item>
+        <item>23700</item>
+        <item>84520</item>
+        <item>85190</item>
+        <item>70410</item>
+        <item>81570</item>
+        <item>95100</item>
+        <item>97560</item>
+        <item>27850</item>
+        <item>80090</item>
+        <item>80610</item>
+        <item>81990</item>
+        <item>24800</item>
+        <item>91215</item>
+        <item>82850</item>
+        <item>61812</item>
+        <item>29590</item>
+        <item>82080</item>
+        <item>86560</item>
+        <item>91740</item>
+        <item>97750</item>
+        <item>L000013</item>
+        <item>89100</item>
+        <item>L000089</item>
+        <item>93400</item>
+        <item>92955</item>
+    </string-array>
+</resources>

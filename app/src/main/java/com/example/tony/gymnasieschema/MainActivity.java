@@ -31,6 +31,8 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
+import com.parse.Parse;
+import com.parse.ParseInstallation;
 import com.squareup.picasso.Picasso;
 
 import java.util.Calendar;
@@ -59,7 +61,6 @@ public class MainActivity extends ActionBarActivity {
         setSupportActionBar(toolbar);
 
         //First Start
-
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         boolean previouslyStarted = prefs.getBoolean(getString(R.string.pref_previously_started), false);
         if(!previouslyStarted) {

@@ -26,8 +26,8 @@
         android:title="Vecko Schema inställningar"
         >
         <EditTextPreference
-            android:title="Height"
-            android:summary="Höjd på schemat. Ange endast siffror. (px)"
+            android:title="Höjd"
+            android:summary="Ange antalet pixlar för höjd."
             android:key="HeightKey"
             android:digits="0123456789"
             android:inputType="number"
@@ -35,14 +35,16 @@
             />
 
         <EditTextPreference
-            android:title="Width"
-            android:summary="Bredd på schemat. Ange endast siffror. (px)"
+            android:title="Bredd"
+            android:summary="Ange antalet pixlar för bredd."
             android:key="WidthKey"
             android:digits="0123456789"
             android:inputType="number"
             android:maxLength="4"
             />
     </PreferenceCategory>
+
+
 <!--
     <PreferenceCategory
         android:title="Dag Schema inställningar"
@@ -90,7 +92,7 @@
         >
 
         <Preference
-            android:title="Clear Cache"
+            android:title="Rensa Cache"
             android:summary="Rensa image cache."
             android:key="ClearCacheKey"
             />

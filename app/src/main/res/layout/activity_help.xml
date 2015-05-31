@@ -29,9 +29,11 @@
         android:layout_below="@+id/textView2"
         android:layout_gravity="center"
         android:textColor="@color/ColorPrimaryDark"
-        android:onClick="closeHelp();"
+        android:onClick="closeHelp"
         android:focusable="true"
-        android:focusableInTouchMode="true" />
+        android:focusableInTouchMode="true"
+        android:clickable="true"
+        />
 
 
 </LinearLayout>

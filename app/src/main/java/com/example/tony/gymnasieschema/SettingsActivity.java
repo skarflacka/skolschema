@@ -1,17 +1,11 @@
 package com.example.tony.gymnasieschema;
 
-import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.preference.Preference;
-import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
-import android.support.v7.widget.Toolbar;
 import android.support.v7.app.ActionBarActivity;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.LinearLayout;
+import android.support.v7.widget.Toolbar;
 import android.widget.Toast;
 
 import com.nostra13.universalimageloader.core.ImageLoader;

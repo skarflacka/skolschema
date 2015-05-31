@@ -14,4 +14,10 @@
         app:showAsAction="never"
         />
 
+    <item android:id="@+id/action_credits"
+        android:orderInCategory="300"
+        android:title="Hjälp och Credits"
+        app:showAsAction="never"
+        />
+
 </menu>

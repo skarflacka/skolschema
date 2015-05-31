@@ -2,11 +2,14 @@ package com.example.tony.gymnasieschema;
 
 import android.app.Activity;
 import android.app.ActivityManager;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.app.FragmentManager;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.drawable.Drawable;
 import android.os.Build;
 import android.preference.PreferenceManager;
 import android.support.v4.view.ViewPager;
@@ -56,6 +59,7 @@ public class MainActivity extends ActionBarActivity {
         setSupportActionBar(toolbar);
 
         //First Start
+
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
         boolean previouslyStarted = prefs.getBoolean(getString(R.string.pref_previously_started), false);
         if(!previouslyStarted) {
@@ -63,9 +67,9 @@ public class MainActivity extends ActionBarActivity {
             edit.putBoolean(getString(R.string.pref_previously_started), Boolean.TRUE);
             edit.commit();
 
+            Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
+            startActivityForResult(intent, SETTINGS_INFO);
         }
-
-        showHelp();
 
         //Tabbed down color and icon. Only for post 20 api.
         if (Build.VERSION.SDK_INT > 20) {
@@ -103,15 +107,11 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-
     //Start HelpActivity, called first in onCreate.
     public void showHelp() {
         Intent intent = new Intent(getApplicationContext(), HelpActivity.class);
         startActivity(intent);
     }
-
-
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -137,6 +137,11 @@ public class MainActivity extends ActionBarActivity {
             displayImageUni();
 
             return true;
+        } if (id == R.id.action_credits) {
+            Dialog dialog = dialogCredits();
+            dialog.show();
+
+            return true;
         }
         return super.onOptionsItemSelected(item);
         }
@@ -148,6 +153,24 @@ public class MainActivity extends ActionBarActivity {
         if (requestCode == SETTINGS_INFO) {
             displayImage();
         }
+    }
+
+    public Dialog dialogCredits() {
+        // 1. Instantiate an AlertDialog.Builder with its constructor
+        final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+
+        // 2. Chain together various setter methods to set the dialog characteristics
+        builder.setMessage(R.string.credits_text)
+                .setTitle(R.string.action_credits2).setNeutralButton(R.string.close, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int id) {
+
+            }
+        });
+
+        // 3. Get the AlertDialog from create()
+        AlertDialog dialog = builder.create();
+
+        return  dialog;
     }
 
     public void weekList() {
@@ -216,6 +239,7 @@ public class MainActivity extends ActionBarActivity {
         String weekString = String.valueOf(week);
 
         String urlFormatted = url.format(url, school, personnummer, width, height, weekString);
+
 
         imageLoader.displayImage(urlFormatted, touchImageView, options);
     }

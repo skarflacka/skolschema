@@ -1,14 +1,13 @@
 package com.example.tony.gymnasieschema;
 
 import android.content.SharedPreferences;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.Nullable;
-import android.text.method.Touch;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import com.nostra13.universalimageloader.cache.memory.impl.WeakMemoryCache;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
@@ -16,12 +15,6 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;
 import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
-import com.squareup.picasso.Picasso;
-
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.util.Calendar;
-import java.util.GregorianCalendar;
 
 /**
  * Created by Tony on 2015-05-05.
@@ -60,6 +53,7 @@ public class Fragment2 extends android.support.v4.app.Fragment {
 
     public void displayImageUni() {
         DisplayImageOptions options = new DisplayImageOptions.Builder()
+                .showImageOnLoading(R.drawable.loading)
                 .cacheOnDisk(true)
                 .cacheInMemory(true)
                 .imageScaleType(ImageScaleType.EXACTLY)

@@ -1,18 +1,20 @@
 <resources>
     <string name="app_name">Skolschema</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_settings">Settings</string>
     <string name="url2">http://www.novasoftware.se/ImgGen/schedulegenerator.aspx?format=png&amp;schoolid=%1$s/sv-se&amp;id=%2$s&amp;period=&amp;week=%5$s&amp;width=%3$s&amp;height=%4$s&amp;day=%6$s</string>
     <string name="url">http://www.novasoftware.se/ImgGen/schedulegenerator.aspx?format=png&amp;schoolid=%1$s/sv-se&amp;id=%2$s&amp;period=&amp;week=%5$s&amp;width=%3$s&amp;height=%4$s</string>
-<string name="search_hint">Search...</string>
-<string name="title_schoolsearch">SEARCH PLS</string>
+    <string name="search_hint">Search...</string>
+    <string name="title_schoolsearch">SEARCH PLS</string>
     <string name="refresh">Refresh</string>
     <string name="pref_previously_started">FirstTime</string>
     <string name="title_help">Help desu ne.</string>
     <string name="shimmer_text">Välkommen till\n Skolschema!</string>
     <string name="shimmer_text_2">Börja med att sätta upp\n ditt schema i Settings.</string>
+    <string name="close">Stäng</string>
+    <string name="credits_text">Den färgade veckan är nuvarande vecka och den är även sparad. Inga andra veckor kommer att sparas tills det blir den veckan.\n\nSkolschema gjord av Nubmeister.</string>
+    <string name="action_credits2">Hjälp och Credits</string>
 
     <string-array name="week_array">
         <item>Vecka 1</item>
